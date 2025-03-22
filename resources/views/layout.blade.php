@@ -10,19 +10,24 @@
 
 <body>
     <header>
-        <a href=" {{ Route('home_page') }}">Voltar para Home</a> | 
-        <a href=" {{ Route('contact_page') }}">Entre em Contato</a>
+        <a href=" {{ Route('home_page') }}">Home</a> | 
+        <a href=" {{ Route('services_page') }}">Serviços</a> |
+        <a href=" {{ Route('contact_page') }}">Contato</a> 
+      
     </header>
     <hr>
 
 
-    <main>Conteúdo</main>
+    <main>
+        @yield('content')
+    </main>
     <hr>
 
 
 
-    <footer>Rodapé</footer>
-    <hr>
+    <footer>
+        Rodapé
+    </footer>
 </body>
 
 </html>

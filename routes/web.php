@@ -13,6 +13,4 @@ Route::get('/contact',  [SiteController::class, 'contact'])->name('contact_page'
 
 
 
-// Route::get('/layout', function(){
-//     return view('layout');
-// });
+

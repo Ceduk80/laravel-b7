@@ -1,3 +1,8 @@
+@extends('layout')
+
+@section('content')
+
+
 <h1>Fazemos Qualquer negócio</h1>
 
 <ul>
@@ -13,12 +18,14 @@
     <li>item 10</li>
 </ul>
 
-{{-- 
-<a href="/home">Voltar para a Home</a> <br>
-<a href="/contact">Entre em contato</a> --}}
 
 
-<a href=" {{ Route('home_page') }}">Voltar para Home</a> <br>
-<a href=" {{ Route('contact_page') }}">Entre em contato</a> <br>
 
+
+
+
+
+
+<h1>Sejam Bem vindos</h1>
+@endsection
 

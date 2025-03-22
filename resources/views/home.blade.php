@@ -1,7 +1,8 @@
+@extends('layout')
+
+
+@section('content')
 <h1>Sejam Bem vindos</h1>
+@endsection
 
 
-
-
-<a href=" {{ Route('services_page') }}">Saiba mais sobre nossos serviços</a> <br>
-<a href=" {{ Route('contact_page') }}">Entre em contato</a>
