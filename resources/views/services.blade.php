@@ -1,8 +1,8 @@
 @extends('layout')
 
+@section('titulo', $titulo)
+
 @section('content')
-
-
 <h1>Fazemos Qualquer negócio</h1>
 
 <ul>
@@ -17,15 +17,6 @@
     <li>item 9</li>
     <li>item 10</li>
 </ul>
-
-
-
-
-
-
-
-
-
 <h1>Sejam Bem vindos</h1>
 @endsection
 

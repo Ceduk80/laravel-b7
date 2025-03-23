@@ -1,5 +1,8 @@
 @extends('layout')
 
+@section('titulo', 'Meu site - Contato')
+
+
 @section('content')
 <h1>Contato</h1>
 
